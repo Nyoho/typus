@@ -59,7 +59,7 @@ module Admin
                   # :disabled => attribute_disabled?(attribute),
                   :include_blank => true }
 
-      render "admin/templates/#{template}",
+      render "#{template}",
              :resource => @resource,
              :attribute => attribute,
              :options => options,

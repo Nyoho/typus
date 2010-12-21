@@ -74,6 +74,9 @@ refector to be more powerful (roles) but it works for now.
 
 [NEW] Link to `/admin/user_guide` from the sidebar.
 
+[CHANGED] Form templates are now located on the `resources` folder. This makes
+possible to override template by resource or all at once.
+
 [3.0.2]
 
 [FIXED] Use Arel to get the data on lists. After moving to will_paginate I
